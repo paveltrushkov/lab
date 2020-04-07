@@ -1,0 +1,4 @@
+﻿  lab2.3.cpp
+C:\Users\Fabillippa\source\repos\lab2.3\lab2.3\lab2.3.cpp(17,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Fabillippa\source\repos\lab2.3\lab2.3\lab2.3.cpp(88,14): warning C4101: maxI: неиспользованная локальная переменная
+  lab2.3.vcxproj -> C:\Users\Fabillippa\source\repos\lab2.3\Debug\lab2.3.exe
