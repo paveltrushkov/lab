@@ -4,16 +4,16 @@
 #include <ctime>
 using namespace std;
 
-void MENU();
-void RESULTS(int** n, int* n1, int a, int b);
-void WINNERS(int* n, int a);
+void menu();
+void result(int** n, int* n1, int a, int b);
+void win(int* n, int a);
 
 int main()
 {
     setlocale(LC_ALL, "Russian");
     int n, m, key = 1;
-    MENU();
-    cout << endl << ":"; cin >> key;
+    menu();
+    cout << "Ответ: "; cin >> key;
     srand(time(NULL));
     do
         switch (key)
@@ -23,9 +23,8 @@ int main()
             m = rand() % 11;
             break;
         case 2:
-            cout << "Введите n и m\n";
-            cin >> n;
-            cin >> m;
+            cout << "Введите количество стрелков : "; cin >> n;
+            cout << "\nВведите количество выстрелов : "; cin >> m;
             break;
         case 0:
             cout << "Выход\n";
@@ -40,9 +39,21 @@ int main()
     a = new int* [n];
     for (int i = 0; i < n; i++)
         a[i] = new int[m];
-    for (int i = 0; i < n; i++)
-        for (int j = 0; j < m; j++)
-            a[i][j] = rand() % 11;
+    if (key == 1)
+    {
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < m; j++)
+                a[i][j] = rand() % 11;
+    }
+    else
+    {
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < m; j++)
+            {
+                cout << "Стрелок[" << i+1 << "] Выстрел[" << j+1 << "]: ";
+                cin >> a[i][j];
+            }
+    }
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < m; j++)
@@ -53,12 +64,12 @@ int main()
     }
     int* res;
     res = new int[n];
-    RESULTS(a, res, n, m);
-    WINNERS(res, n);
+    result(a, res, n, m);
+    win(res, n);
     return 0;
 }
 
-void MENU()
+void menu()
 {
     cout << "\tДобро пожаловать!\n";
     cout << "Выберите метод заполнения:\n";
@@ -68,7 +79,7 @@ void MENU()
     cout << "0 - Выход\n";
 }
 
-void RESULTS(int** n, int* n1, int a, int b)
+void result(int** n, int* n1, int a, int b)
 {
     int s;
     for (int i = 0; i < a; i++)
@@ -83,7 +94,7 @@ void RESULTS(int** n, int* n1, int a, int b)
         cout << n1[i] << " ";
 }
 
-void WINNERS(int* n, int a)
+void win(int* n, int a)
 {
     int max, maxI;
     max = n[0];
@@ -92,12 +103,12 @@ void WINNERS(int* n, int a)
         if (n[i] > max)
             max = n[i];
     }
-    cout << "\n" << max << "\nПобедители:\n";
+    cout << "\nНаибольшая сумма: " << max << "\nПобедители:\n";
     for (int i = 0; i < a; i++)
     {
         if (n[i] == max)
         {
-            cout << "Номер стрелка " << i + 1 << endl;
+            cout << "Номер стрелка: " << i + 1 << endl;
         }
     }
 }
