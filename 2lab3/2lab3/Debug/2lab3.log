@@ -1,0 +1,3 @@
+﻿  2lab3.cpp
+C:\Users\Fabillippa\source\repos\2lab3\2lab3\Header.h(13,13): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  2lab3.vcxproj -> C:\Users\Fabillippa\source\repos\2lab3\Debug\2lab3.exe
