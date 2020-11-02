@@ -46,6 +46,5 @@ int main()
     {
         cout << "This is not a palindrome" << endl;
     }
-    system("pause");
     return 0;
 }
