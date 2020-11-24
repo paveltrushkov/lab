@@ -1,0 +1,8 @@
+﻿  lab6.cpp
+C:\Users\Fabillippa\source\repos\lab6\lab6\lab6.cpp(12,14): warning C4101: size: неиспользованная локальная переменная
+C:\Users\Fabillippa\source\repos\lab6\lab6\lab6.cpp(13,15): warning C4101: color: неиспользованная локальная переменная
+C:\Users\Fabillippa\source\repos\lab6\lab6\lab6.cpp(70,24): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\Fabillippa\source\repos\lab6\lab6\lab6.cpp(85,15): warning C4101: material: неиспользованная локальная переменная
+C:\Users\Fabillippa\source\repos\lab6\lab6\lab6.cpp(84,14): warning C4101: h: неиспользованная локальная переменная
+C:\Users\Fabillippa\source\repos\lab6\lab6\lab6.cpp(116,30): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+  lab6.vcxproj -> C:\Users\Fabillippa\source\repos\lab6\Debug\lab6.exe
