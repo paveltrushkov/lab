@@ -1,0 +1,7 @@
+﻿  lab7.cpp
+C:\Users\Fabillippa\Desktop\lab7\lab7\table.h(76,24): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\Fabillippa\Desktop\lab7\lab7\comptable.h(52,37): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\Fabillippa\Desktop\lab7\lab7\comptable.h(57,37): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\Fabillippa\Desktop\lab7\lab7\roundtable.h(39,30): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\Fabillippa\Desktop\lab7\lab7\roundtable.h(44,37): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+  lab7.vcxproj -> C:\Users\Fabillippa\Desktop\lab7\Debug\lab7.exe
