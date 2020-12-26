@@ -1,0 +1,5 @@
+﻿  lab5stl.cpp
+C:\Users\Fabillippa\source\repos\lab5stl\lab5stl\lab5stl.cpp(216,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Fabillippa\source\repos\lab5stl\lab5stl\lab5stl.cpp(327,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Fabillippa\source\repos\lab5stl\lab5stl\lab5stl.cpp(111): warning C4715: STL::Calc: значение возвращается не при всех путях выполнения
+  lab5stl.vcxproj -> C:\Users\Fabillippa\source\repos\lab5stl\Debug\lab5stl.exe
