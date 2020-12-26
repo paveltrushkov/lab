@@ -1,3 +1,2 @@
 ﻿  classVector.cpp
-C:\Users\Fabillippa\source\repos\classVector\classVector\classVector.cpp(259,1): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
-  classVector.vcxproj -> C:\Users\Fabillippa\source\repos\classVector\Debug\classVector.exe
+  classVector.vcxproj -> C:\Users\Fabillippa\Desktop\lab\classVector\Debug\classVector.exe
